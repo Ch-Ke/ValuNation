@@ -1,0 +1,48 @@
+Key financial information
+Operating income/EBIT
+Net income
+CapEx
+Operating, investing, and financing cash flows
+Free Cash Flow
+Total debt, equity, and liabilities
+Working Capital
+
+1. calculate expected growth rate
+
+CAGR = ((end value/start value)^(1/no. of years)) - 1
+
+2. project future free cash flows (FCF)
+
+current year FCF = x
+current year + 1 FCF = x * (1+0.6) = y
+current year + 2 FCF = y * (1+0.6)
+etc.
+
+3. determine discount rate (WACC or industry averages)
+
+WACC = ((mkt_equity/mkt_equity+mkt_debt)* cost of equity) + ((mkt_debt/mkt_equity+mkt_debt)* cost of debt * (1 - corporate tax rate))
+
+OR
+
+risk-free rate + equity risk premium
+
+4. calculate present value of future cash flows
+
+DCF = sum((FCF_yr_t)/(1+r)^t)
+FCF_yr_t = free cash flow in year 18:19
+r = discount rate
+t = year (1 to 5, for example)
+
+5. calculate terminal value
+
+perpetuity growth method
+
+present value of terminal value
+
+6. total calc
+
+enterprise value (EV) = dcf + pv of terminal value
+
+7. adjust for debt and cash (calculate equity value instead)
+
+equity value = enterprise value - net debt
